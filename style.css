@@ -1,0 +1,162 @@
+body {
+background-color: lightsteelblue;
+padding: 60px;
+border: .35cm solid;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* unordered list */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    }
+    
+    li {
+    float: right;
+    }
+    
+    li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    }
+    
+    /* Change the link color to #111 (black) on hover */
+    li a:hover {
+    background-color: #111;
+    }
+
+/* headlines */    
+h1 {
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+h2 {
+    text-align: center; 
+}
+/* refering to pedir class */
+.pedir {
+    position: relative;
+    width: 100%;
+    max-width: 850px;
+}
+
+.pedir img {
+    width: 100%;
+    margin-left: 12%;
+    margin-bottom: auto;
+}
+
+.pedir .btn {
+    position: absolute;
+    top: 85%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #f1f1f1;
+    color: black;
+    font-size: 16px;
+    padding: 16px 30px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: right;
+}
+
+.container .btn:hover {
+    background-color: black;
+    color: white;
+}
+
+/* refering to google map link*/
+.gmap {
+    float:left;
+    width: auto;
+    height: auto;
+}
+
+/* refering to IDs */
+#welcome {
+text-align: left;
+width: auto;
+height: auto;
+background-color: black;
+color: lightskyblue;
+font-size: 16px;
+}
+
+#food {
+text-align: left;
+width: auto;
+height: auto;
+background-color: black;
+color: lightsteelblue;
+font-size: 16px;
+}
+
+#order {
+text-align: left;
+width: auto;
+height: auto;
+background-color: black;
+color: lightsteelblue;
+font-size: 16px;
+}
+
+#information {
+text-align: left;
+width: auto;
+height: auto;
+background-color: black;
+color: lightsteelblue;
+font-size: 16px;
+}
+
+/* refering to specific classes */
+.info {
+color: brown;
+
+}
+
+.pedir {
+color: brown;
+
+}
+
+.menu {
+color: brown;
+}
+
+.welcome {
+color: brown;
+}
+
+/* refering to ID */
+#top {
+    text-align: center;
+}
+
+/* refering to specific link in info section - change of link color  */
+.info a:link {
+    color:indigo; 
+    background-color: transparent; 
+    text-decoration: none;
+}
+
